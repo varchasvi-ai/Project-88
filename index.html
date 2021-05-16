@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>Project-86</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="fabric.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body class="body_background">
+        <center>
+            <h2 class="btn-primary">SUPERHERO</h2>
+            <div style="height:65px;" id="head_info" class="btn-primary">
+                <h3>Current Width  = <span id="current_width">50</span></h3>
+                <h3>Current Height  = <span id="current_height">50</span></h3>
+            </div>
+            <div>
+                <div style="background-color: black;" class="col-lg-3 col-md-3 col-sm-3 col-xs-6 book" data-toggle="modal" data-target=#dictionary>
+                    <hr>
+                    <p style="font-size: 50px;" class="text-primary">Instructions</p>
+                    <hr>
+                </div>
+                <div class="modal fade" id="dictionary">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <center>
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Instructions</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <img src="avenger_bg.jpg" class="img-responsive img_modal">
+                                    <p style="text-align: left;" class="p_modal">
+                                        For Moving Player:
+                                        <br>
+                                        Up
+                                        <br>
+                                        Down
+                                        <br>
+                                        Left 
+                                        <br>
+                                        Right
+                                        <br>
+                                        <br>
+                                        Hulk:
+                                        <br>
+                                        Face:- A
+                                        <br>
+                                        Left Hand:- B
+                                        <br>
+                                        Right Hand:- C
+                                        <br>
+                                        Legs:- D
+                                        <br>
+                                        Torso:- E
+                                        <br>
+                                        <br>
+                                        Ironman:
+                                        <br>
+                                        Face:- F
+                                        <br>
+                                        Left Hand:- G
+                                        <br>
+                                        Right Hand:- H
+                                        <br>
+                                        Legs:- I
+                                        <br>
+                                        Torso:- J
+                                        <br>
+                                        <br>
+                                        Spiderman:
+                                        <br>
+                                        Face:- K
+                                        <br>
+                                        Left Hand:- L
+                                        <br>
+                                        Right Hand:- T
+                                        <br>
+                                        Legs:- N
+                                        <br>
+                                        Torso:- O
+                                        <br>
+                                        <br>
+                                        Thor:
+                                        <br>
+                                        <br>
+                                        Face:- S
+                                        <br>
+                                        Left Hand:- Q
+                                        <br>
+                                        Right Hand:- R
+                                    </p>
+                                </div>
+                            </center>
+                        </div>
+                    </div>
+                </div>
+              <canvas style="margin-left: 150px;" id="myCanvas" width="1000px;" height="600px;"></canvas>
+              
+            </div>
+            </div>
+            <script src="main.js"></script>
+        </center>
+    </body>
+</html>
